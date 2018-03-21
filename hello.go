@@ -39,31 +39,4 @@ func main() {
 
   fmt.Println(B, KB, GB, PB)
 
-
-  for i, len := 1, 10; i < len; i++ {
-    fmt.Println("i : ", i)
-  }
-
-  i := 1
-  for true {
-    fmt.Println("i : ", i)
-    i++
-    if i > 10 {
-      break
-    }
-  }
-
-  c := 5
-  switch true {
-  case c > 0:
-    fmt.Println("c > 0")
-    fallthrough //继续检查符合条件的语句
-  case c > 1:
-    fmt.Println("c > 1")
-  case c > 2:
-    fmt.Println("c > 2")
-  default:
-    fmt.Println("default")
-  }
-
 }
