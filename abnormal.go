@@ -2,6 +2,8 @@ package main
 
 import "fmt"
 
+// golang 没有设计 try catch， 如果需要抛出与捕获异常需要使用 panic recover 两个关键字
+
 func main()  {
   test()
 }
